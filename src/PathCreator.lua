@@ -1,0 +1,1 @@
+return {script.Parent.Name, script.Name}

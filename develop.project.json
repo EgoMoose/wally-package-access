@@ -1,0 +1,21 @@
+{
+	"name": "wallypackageaccess",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "DevPackages"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"RunTest": {
+				"$path": "test",
+				"WallyPackageAccess": {
+					"$path": "src"
+				}
+			}
+		}
+	}
+}
