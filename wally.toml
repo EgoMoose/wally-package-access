@@ -1,12 +1,9 @@
 [package]
 name = "egomoose/wally-package-access"
-version = "0.1.0"
+version = "0.1.2"
+license = "MIT"
+description = "Provides access to other wally dependencies as instances instead of requiring them"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
-
-[dev-dependencies]
-Roact = "roblox/roact@1.4.4"
-Promise = "evaera/promise@4.0.0"
-Janitor = "howmanysmall/janitor@1.14.1"

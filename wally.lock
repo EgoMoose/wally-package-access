@@ -4,20 +4,5 @@ registry = "test"
 
 [[package]]
 name = "egomoose/wally-package-access"
-version = "0.1.0"
-dependencies = []
-
-[[package]]
-name = "evaera/promise"
-version = "4.0.0"
-dependencies = []
-
-[[package]]
-name = "howmanysmall/janitor"
-version = "1.14.1"
-dependencies = []
-
-[[package]]
-name = "roblox/roact"
-version = "1.4.4"
+version = "0.1.2"
 dependencies = []
