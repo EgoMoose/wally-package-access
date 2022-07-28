@@ -1,5 +1,5 @@
 [package]
-name = "egomoose/wallypackageaccess"
+name = "egomoose/wally-package-access"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
