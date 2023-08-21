@@ -10,10 +10,15 @@
 		},
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
-			"RunTest": {
+			"Test": {
 				"$path": "test",
 				"WallyPackageAccess": {
-					"$path": "src"
+					"$path": "src",
+					"$properties": {
+						"Attributes": {
+							"DebugPackage": {"Bool": true}
+						}
+					}
 				}
 			}
 		}

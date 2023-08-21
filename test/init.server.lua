@@ -1,7 +1,10 @@
-local MergeIntoPackages = require(script.MergeIntoPackages)
-local WallyPackageAccess = script:WaitForChild("WallyPackageAccess")
+--!strict
+
 local Packages = game.ReplicatedStorage.Packages
+local MergeIntoPackages = require(script.MergeIntoPackages) :: any
 
-MergeIntoPackages(WallyPackageAccess, Packages, "egomoose_wallypackageaccess@test_dev")
+MergeIntoPackages(script:WaitForChild("WallyPackageAccess"), Packages, "egomoose_wallypackageaccess@test_dev")
 
-print(require(Packages.WallyPackageAccess))
+local WallyPackageAccess = require(Packages:WaitForChild("WallyPackageAccess")) :: any
+
+print(WallyPackageAccess)

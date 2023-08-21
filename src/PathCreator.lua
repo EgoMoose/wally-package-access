@@ -1,1 +1,1 @@
-return {script.Parent.Name, script.Name}
+return {script.Parent.Parent.Name, script.Parent.Name, script.Name}
