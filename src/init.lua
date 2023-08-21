@@ -98,4 +98,7 @@ end
 local packages = script.Parent.Parent.Parent
 local all = findAll(packages)
 
-return all
+return {
+	packages = packages,
+	contents = all,
+}
